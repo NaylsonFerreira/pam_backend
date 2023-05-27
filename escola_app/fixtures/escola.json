@@ -1,0 +1,334 @@
+[
+    {
+        "model": "escola_app.aluno",
+        "pk": 1,
+        "fields": {
+            "nome": "João Silva Santos",
+            "idade": 22
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 2,
+        "fields": {
+            "nome": "Maria Fernandes Oliveira",
+            "idade": 27
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 3,
+        "fields": {
+            "nome": "Pedro Almeida Costa",
+            "idade": 20
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 4,
+        "fields": {
+            "nome": "Ana Sousa Rodrigues",
+            "idade": 25
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 5,
+        "fields": {
+            "nome": "Luana Santos Oliveira",
+            "idade": 28
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 6,
+        "fields": {
+            "nome": "Rafaela Ferreira Lima",
+            "idade": 19
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 7,
+        "fields": {
+            "nome": "Lucas Silva Souza",
+            "idade": 21
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 8,
+        "fields": {
+            "nome": "Guilherme Rodrigues Costa",
+            "idade": 23
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 9,
+        "fields": {
+            "nome": "Júlia Almeida Pereira",
+            "idade": 26
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 10,
+        "fields": {
+            "nome": "Marcelo Castro Cardoso",
+            "idade": 18
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 11,
+        "fields": {
+            "nome": "Lívia Oliveira Santos",
+            "idade": 29
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 12,
+        "fields": {
+            "nome": "André Fernandes Rodrigues",
+            "idade": 20
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 13,
+        "fields": {
+            "nome": "Isabella Sousa Alves",
+            "idade": 24
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 14,
+        "fields": {
+            "nome": "Pedro Henrique Lima Pereira",
+            "idade": 27
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 15,
+        "fields": {
+            "nome": "Giovanna Costa Rodrigues",
+            "idade": 22
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 16,
+        "fields": {
+            "nome": "Matheus Santos Almeida",
+            "idade": 18
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 17,
+        "fields": {
+            "nome": "Beatriz Oliveira Ferreira",
+            "idade": 30
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 18,
+        "fields": {
+            "nome": "Gabriel Souza Castro",
+            "idade": 19
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 19,
+        "fields": {
+            "nome": "Larissa Pereira Silva",
+            "idade": 25
+        }
+    },
+    {
+        "model": "escola_app.aluno",
+        "pk": 20,
+        "fields": {
+            "nome": "Marilia Lopes Ferreira",
+            "idade": 24
+        }
+    },
+    {
+        "model": "escola_app.disciplina",
+        "pk": 1,
+        "fields": {
+            "nome": "Arquitetura de Computadores",
+            "descricao": null,
+            "obrigatoria": true,
+            "horas_aulas": 40
+        }
+    },
+    {
+        "model": "escola_app.disciplina",
+        "pk": 2,
+        "fields": {
+            "nome": "Fundamentos da Ciência da Computação",
+            "descricao": null,
+            "obrigatoria": false,
+            "horas_aulas": 40
+        }
+    },
+    {
+        "model": "escola_app.disciplina",
+        "pk": 3,
+        "fields": {
+            "nome": "Linguagem de Programação",
+            "descricao": null,
+            "obrigatoria": true,
+            "horas_aulas": 40
+        }
+    },
+    {
+        "model": "escola_app.disciplina",
+        "pk": 4,
+        "fields": {
+            "nome": "Lógica de Programação",
+            "descricao": null,
+            "obrigatoria": true,
+            "horas_aulas": 40
+        }
+    },
+    {
+        "model": "escola_app.disciplina",
+        "pk": 5,
+        "fields": {
+            "nome": "Soft Skills",
+            "descricao": null,
+            "obrigatoria": true,
+            "horas_aulas": 40
+        }
+    },
+    {
+        "model": "escola_app.disciplina",
+        "pk": 6,
+        "fields": {
+            "nome": "Gestão de Recursos Humanos",
+            "descricao": null,
+            "obrigatoria": true,
+            "horas_aulas": 40
+        }
+    },
+    {
+        "model": "escola_app.disciplina",
+        "pk": 7,
+        "fields": {
+            "nome": "Marketing Estratégico",
+            "descricao": null,
+            "obrigatoria": true,
+            "horas_aulas": 40
+        }
+    },
+    {
+        "model": "escola_app.disciplina",
+        "pk": 8,
+        "fields": {
+            "nome": "Finanças Corporativas",
+            "descricao": null,
+            "obrigatoria": true,
+            "horas_aulas": 40
+        }
+    },
+    {
+        "model": "escola_app.disciplina",
+        "pk": 9,
+        "fields": {
+            "nome": "Empreendedorismo",
+            "descricao": null,
+            "obrigatoria": true,
+            "horas_aulas": 40
+        }
+    },
+    {
+        "model": "escola_app.disciplina",
+        "pk": 10,
+        "fields": {
+            "nome": "Estratégia Empresarial",
+            "descricao": null,
+            "obrigatoria": true,
+            "horas_aulas": 40
+        }
+    },
+    {
+        "model": "escola_app.curso",
+        "pk": 1,
+        "fields": {
+            "nome": "Ciência da Computação",
+            "descricao": null,
+            "disciplinas": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        }
+    },
+    {
+        "model": "escola_app.curso",
+        "pk": 2,
+        "fields": {
+            "nome": "Administração",
+            "descricao": null,
+            "disciplinas": [
+                6,
+                7,
+                8,
+                9,
+                10
+            ]
+        }
+    },
+    {
+        "model": "escola_app.turma",
+        "pk": 1,
+        "fields": {
+            "nome": "Turma A",
+            "ano": 2023,
+            "turno": "noite",
+            "curso": 1,
+            "alunos": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
+        }
+    },
+    {
+        "model": "escola_app.turma",
+        "pk": 2,
+        "fields": {
+            "nome": "Turma B",
+            "ano": 2023,
+            "turno": "manha",
+            "curso": 2,
+            "alunos": [
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ]
+        }
+    }
+]
