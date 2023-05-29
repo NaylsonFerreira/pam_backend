@@ -13,7 +13,6 @@ class AlunoViewSet(ModelViewSet):
     serializer_class = AlunoSerializer
     filter_backends = [SearchFilter, DjangoFilterBackend, OrderingFilter]
     search_fields = ['__all__']
-    permission_classes = [IsAuthenticatedOrReadOnly]
     filterset_fields = ['id', 'nome', 'idade']
 
 
@@ -22,7 +21,6 @@ class CursoViewSet(ModelViewSet):
     serializer_class = CursoSerializer
     filter_backends = [SearchFilter, DjangoFilterBackend, OrderingFilter]
     search_fields = ['__all__']
-    permission_classes = [IsAuthenticatedOrReadOnly]
     filterset_fields = ['id', 'descricao']
 
 
@@ -31,7 +29,6 @@ class DisciplinaViewSet(ModelViewSet):
     serializer_class = DisciplinaSerializer
     filter_backends = [SearchFilter, DjangoFilterBackend, OrderingFilter]
     search_fields = ['__all__']
-    permission_classes = [IsAuthenticatedOrReadOnly]
     filterset_fields = ['id', 'descricao', 'obrigatoria', 'horas_aulas']
 
 
@@ -40,5 +37,4 @@ class TurmaViewSet(ModelViewSet):
     serializer_class = TurmaSerializer
     filter_backends = [SearchFilter, DjangoFilterBackend, OrderingFilter]
     search_fields = ['__all__']
-    permission_classes = [IsAuthenticatedOrReadOnly]
     filterset_fields = ['id', 'nome', 'ano', 'turno', 'curso']

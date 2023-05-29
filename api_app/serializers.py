@@ -16,7 +16,7 @@ class AlunoSerializer(serializers.ModelSerializer):
 
 
 class CursoSerializer(serializers.ModelSerializer):
-    disciplinas = DisciplinaSerializer(many=True)
+    disciplinas = DisciplinaSerializer(many=True, read_only=True)
 
     class Meta:
         model = Curso
@@ -24,8 +24,8 @@ class CursoSerializer(serializers.ModelSerializer):
 
 
 class TurmaSerializer(serializers.ModelSerializer):
-    alunos = AlunoSerializer(many=True)
-    curso = CursoSerializer()
+    alunos = AlunoSerializer(many=True, read_only=True)
+    curso = CursoSerializer(read_only=True)
 
     class Meta:
         model = Turma
